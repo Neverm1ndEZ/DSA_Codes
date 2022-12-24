@@ -30,7 +30,7 @@ public class SeiveofEratosthenes {
     public static void main(String[] args) {
         boolean[] isPrime = sieveOfEratosthenes(69);
         for (int i = 0; i <= 69; i++) {
-            if (isPrime[i] == true) {
+            if (isPrime[i]) {
                 System.out.print(i + " ");
             }
         }
